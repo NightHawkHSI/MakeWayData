@@ -1,0 +1,158 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  height: 100%;
+}
+
+.pageHollder {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: #303030; 
+  color: #fff; 
+  border: 5px solid #202020; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  height: 100%;  
+}
+
+.title-Box {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  width: 100%;
+}
+
+.title-bar {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: #303030;
+  align-items: center; 
+  text-align: center; 
+  padding: 20px;
+  height: 100px;
+  width: 100%; 
+  border: 5px solid #202020; 
+}
+
+.title {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #888;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.author {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-bottom: 0;
+  padding: 10;
+  font-size: 14px;
+  color: #888;
+}
+
+.timer {
+  overflow: hidden;
+  margin-bottom: 0;
+  margin-left: 500px;
+  font-size: 25px;
+  color: #ff0000;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.CenterCharts {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap: 20px;
+  padding: 20px;
+  width: 100%; 
+  height: 100%; 
+}
+
+.chart-grid {
+  box-sizing: border-box;
+  display: flex;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%; 
+  height: 100%; 
+}
+
+.chart-row {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px;
+}
+
+.chart {
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: 30%;
+  background:#5a5a5a;
+  color: #fff; 
+  border: 3px solid #000000a9; 
+  margin: 10px;
+  padding: 10px; /* Adjust the padding as needed */
+  width: calc(100% - 40px);
+
+}
+.chart-title {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: #000000; 
+  color: #ffffff; 
+}
+
+.chart-label {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #ffffff; 
+}
+.blank-slot {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.blank-slot-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
