@@ -1,7 +1,7 @@
 {
   "name": "google-docs-app",
   "version": "0.1.0",
-  "homepage": "https://NightHawkHSI.github.io/DiccChops.github.io",
+  "homepage": "./public/index.html",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
