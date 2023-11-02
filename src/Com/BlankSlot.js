@@ -8,7 +8,7 @@ import All from './AllPie';
 import OverAll from './OverAllBest';
 import TotalPoints from './TotalPoints';
 import OTClutchPer from './OTClutch';
-
+import './BlankSlot.css';
 
 
 function BlankSlot({ data, chartType }) {
@@ -29,10 +29,9 @@ function BlankSlot({ data, chartType }) {
       case 'PointsPerGame':
         return <OverAll data={data} />;
       case 'TotalPoints':
-          return <TotalPoints data={data} />;
+        return <TotalPoints data={data} />;
       case 'OTClutch':
-          return <OTClutchPer data={data} />;
-
+        return <OTClutchPer data={data} />;
       default:
         return <p>Blank Area</p>;
     }
@@ -40,7 +39,9 @@ function BlankSlot({ data, chartType }) {
 
   return (
     <div className="blank-slot">
+      <div className="blank-slot-content">
       {renderChart()}
+      </div>
     </div>
   );
 }

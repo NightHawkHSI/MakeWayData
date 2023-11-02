@@ -2,23 +2,16 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { parse } from 'papaparse';
 import BlankSlot from './Com/BlankSlot';
+import PlayerCard from './Com/PlayerCard';
 import Logo from './Com/Logo';
 import './App.css';
 
 function App() {
-const [data, setData] = useState([]);
-const [namedUsersData, setNamedUsersData] = useState([]);
-
+  const [data, setData] = useState([]);
   const [refreshTime, setRefreshTime] = useState(120);
 
   const fetchData = () => {
-
-    //Chippers URL
     const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRZ88nEq5vzLNdVE68AR5kMzS5HveQgQUxXF9rNX-9yhmv2jf2Bohwja3j-vDzUcGbO2ziCZ-Mv3v4J/pub?gid=1125870162&single=true&output=csv';
-    //My URL
-    //const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSlxbP9LCC2H8GtdoElld1Xz2lHaqYOt58F6YMuW__2hA-Rv_Id793xuIWz-RqBUWBR5lSjelbYdDc-/pub?output=csv';
-    //const sheetUrl = 'Link-To-Uploaded-CVS-Sheet';
-
     axios.get(sheetUrl)
       .then((response) => {
         const parsedData = parse(response.data, { header: true });
@@ -30,17 +23,13 @@ const [namedUsersData, setNamedUsersData] = useState([]);
       });
   };
 
-
-
-  
   useEffect(() => {
     fetchData();  
 
     const intervalId = setInterval(() => {
       fetchData();
-    }, 120000); // 2 minute
+    }, 120000);
 
-  
     const timerInterval = setInterval(() => {
       setRefreshTime((prevTime) => prevTime - 1);
     }, 1000);
@@ -107,6 +96,18 @@ const [namedUsersData, setNamedUsersData] = useState([]);
               <BlankSlot data={data} canvasId="canvas9" chartType="everybodysStats" />
             </div>
           </div>
+
+          <div className="player-card-holder">
+            {data.length > 0 ? (
+              data.map((player, index) => (
+                <PlayerCard key={index} player={player} />
+              ))
+            ) : (
+              <p>Loading data...</p>
+            )}
+          </div>
+
+          
         </div>
       </div>
     </div>

@@ -120,7 +120,7 @@ html, body {
   color: #fff; 
   border: 3px solid #000000a9; 
   margin: 10px;
-  padding: 10px; /* Adjust the padding as needed */
+  padding: 10px; 
   width: calc(100% - 40px);
 
 }
@@ -136,23 +136,20 @@ html, body {
   overflow-y: hidden;
   color: #ffffff; 
 }
-.blank-slot {
-  box-sizing: border-box;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
-  width: 500px;
-  height: 500px;
-}
 
-.blank-slot-content {
+.player-card-holder {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  background:#5a5a5a;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  align-items: center; 
+  text-align: center; 
+  color: #fff; 
+  border: 3px solid #000000a9; 
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px; /* Adjust the padding as needed */
   width: 100%;
-  height: 100%;
 }
