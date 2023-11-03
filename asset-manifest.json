@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/DiccChops.github.io/static/css/main.9682f153.css",
-    "main.js": "/DiccChops.github.io/static/js/main.eca66834.js",
-    "static/media/favicon.png": "/DiccChops.github.io/static/media/favicon.5b6f596bb76817d734f8.png",
-    "index.html": "/DiccChops.github.io/index.html",
-    "main.9682f153.css.map": "/DiccChops.github.io/static/css/main.9682f153.css.map",
-    "main.eca66834.js.map": "/DiccChops.github.io/static/js/main.eca66834.js.map"
+    "main.css": "/MakeWayData/static/css/main.9682f153.css",
+    "main.js": "/MakeWayData/static/js/main.b6260a09.js",
+    "static/media/favicon.png": "/MakeWayData/static/media/favicon.5b6f596bb76817d734f8.png",
+    "index.html": "/MakeWayData/index.html",
+    "main.9682f153.css.map": "/MakeWayData/static/css/main.9682f153.css.map",
+    "main.b6260a09.js.map": "/MakeWayData/static/js/main.b6260a09.js.map"
   },
   "entrypoints": [
     "static/css/main.9682f153.css",
-    "static/js/main.eca66834.js"
+    "static/js/main.b6260a09.js"
   ]
 }
