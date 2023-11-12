@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MakeWayData/static/css/main.62c5a10f.css",
-    "main.js": "/MakeWayData/static/js/main.f75babc9.js",
+    "main.css": "/MakeWayData/static/css/main.dc37e427.css",
+    "main.js": "/MakeWayData/static/js/main.37fc9f18.js",
     "static/media/favicon.png": "/MakeWayData/static/media/favicon.5b6f596bb76817d734f8.png",
     "index.html": "/MakeWayData/index.html",
-    "main.62c5a10f.css.map": "/MakeWayData/static/css/main.62c5a10f.css.map",
-    "main.f75babc9.js.map": "/MakeWayData/static/js/main.f75babc9.js.map"
+    "main.dc37e427.css.map": "/MakeWayData/static/css/main.dc37e427.css.map",
+    "main.37fc9f18.js.map": "/MakeWayData/static/js/main.37fc9f18.js.map"
   },
   "entrypoints": [
-    "static/css/main.62c5a10f.css",
-    "static/js/main.f75babc9.js"
+    "static/css/main.dc37e427.css",
+    "static/js/main.37fc9f18.js"
   ]
 }
