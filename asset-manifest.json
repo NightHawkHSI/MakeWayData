@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Home/static/css/main.272c13db.css",
-    "main.js": "/Home/static/js/main.d5b85356.js",
-    "static/media/favicon.png": "/Home/static/media/favicon.5b6f596bb76817d734f8.png",
-    "index.html": "/Home/index.html",
-    "main.272c13db.css.map": "/Home/static/css/main.272c13db.css.map",
-    "main.d5b85356.js.map": "/Home/static/js/main.d5b85356.js.map"
+    "main.css": "/MakeWayData/static/css/main.272c13db.css",
+    "main.js": "/MakeWayData/static/js/main.090524e7.js",
+    "static/media/favicon.png": "/MakeWayData/static/media/favicon.5b6f596bb76817d734f8.png",
+    "index.html": "/MakeWayData/index.html",
+    "main.272c13db.css.map": "/MakeWayData/static/css/main.272c13db.css.map",
+    "main.090524e7.js.map": "/MakeWayData/static/js/main.090524e7.js.map"
   },
   "entrypoints": [
     "static/css/main.272c13db.css",
-    "static/js/main.d5b85356.js"
+    "static/js/main.090524e7.js"
   ]
 }
